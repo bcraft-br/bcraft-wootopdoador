@@ -1,0 +1,37 @@
+/* Estilos base para o top doadores */
+.top-doadores-container {
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.top-doadores-title {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.top-doadores-list {
+    transition: all 0.3s ease;
+}
+
+.top-doadores-item {
+    transition: all 0.2s ease;
+}
+
+.top-doadores-item:hover {
+    transform: translateX(5px);
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    .top-doadores-container {
+        padding: 15px !important;
+    }
+    
+    .top-doadores-title {
+        font-size: 18px !important;
+    }
+    
+    .top-doadores-item {
+        font-size: 14px !important;
+    }
+}
